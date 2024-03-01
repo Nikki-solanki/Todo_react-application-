@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
-import TodoListItem from './ TodoListItem.js';
+import TodoListItem from './TodoListItem.js';
 var count = 1
 
 function App() 
@@ -180,7 +180,10 @@ function App()
                 break;
               }
 
-            })}
+                                    
+            })
+        }
       </div>
-    );}
+    );
+}
 export default App;
